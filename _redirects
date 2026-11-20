@@ -1,0 +1,51 @@
+# -------------------------------------------------------------------
+# MBR Flexibles Ltd - URL Redirections & Clean URL Rules
+# Compatible with Cloudflare Pages, Netlify, and static hosts
+# -------------------------------------------------------------------
+
+# 1. Legacy .php redirects to clean directory URLs
+/index.php                  /                         301
+/about.php                  /about/                   301
+/infrastructures.php        /infrastructures/         301
+/markets.php                /markets/                 301
+/food-beverages.php         /food-beverages/          301
+/pharmaceutical.php         /pharmaceutical/          301
+/home-personal.php          /home-personal/           301
+/agriculture.php            /agriculture/             301
+/pet-foods.php              /pet-foods/               301
+/pouch-type.php             /pouch-type/              301
+/quality-sustainability.php /quality-sustainability/  301
+/contact.php                /contact/                 301
+/terms.php                  /terms/                   301
+/policy.php                 /policy/                  301
+
+# 2. Legacy .html redirects to clean directory URLs
+/index.html                 /                         301
+/about.html                 /about/                   301
+/infrastructures.html       /infrastructures/         301
+/markets.html               /markets/                 301
+/food-beverages.html        /food-beverages/          301
+/pharmaceutical.html        /pharmaceutical/          301
+/home-personal.html         /home-personal/           301
+/agriculture.html           /agriculture/             301
+/pet-foods.html             /pet-foods/               301
+/pouch-type.html            /pouch-type/              301
+/quality-sustainability.html /quality-sustainability/ 301
+/contact.html               /contact/                 301
+/terms.html                 /terms/                   301
+/policy.html                /policy/                  301
+
+# 3. Clean path without trailing slash to trailing slash (directory index)
+/about                      /about/                   301
+/infrastructures            /infrastructures/         301
+/markets                    /markets/                 301
+/food-beverages             /food-beverages/          301
+/pharmaceutical             /pharmaceutical/          301
+/home-personal              /home-personal/           301
+/agriculture                /agriculture/             301
+/pet-foods                  /pet-foods/               301
+/pouch-type                 /pouch-type/              301
+/quality-sustainability     /quality-sustainability/  301
+/contact                    /contact/                 301
+/terms                      /terms/                   301
+/policy                     /policy/                  301
