@@ -2,7 +2,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-xs-text-center col-md-text-left">
-                        <a class="logo"><img src="img/logo1.png" alt=""></a>
+                        <a class="logo"><img src="assets/img/logo1.png" alt=""></a>
                         <div class="empty-space col-xs-b10 col-md-b0"></div>
                     </div>
                     <div class="col-md-6 col-xs-text-center">

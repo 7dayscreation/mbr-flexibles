@@ -9,7 +9,7 @@ include __DIR__ . '/includes/head.php';
 include __DIR__ . '/includes/header.php';
 ?>
 
-<div class="fixed-background" style="background-image: url(img/pouch/pouch-home.jpg);">
+<div class="fixed-background" style="background-image: url(assets/img/pouch/pouch-home.jpg);">
             <div class="banner-height">
                 <div class="full-size-banner-entry full-size valign-middle">
                     <div class="valign-text-wrapper text-center">
@@ -34,10 +34,10 @@ include __DIR__ . '/includes/header.php';
                 <div class="swiper-button-prev swiper-button hidden-xs style-2"></div>
                 <div class="swiper-button-next swiper-button hidden-xs style-2"></div>
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide" style="background-image: url(img/pouch/slider-1.jpg);"></div>
-                    <div class="swiper-slide" style="background-image: url(img/pouch/slider-2.jpg);"></div>
-                    <div class="swiper-slide" style="background-image: url(img/pouch/slider-3.jpg);"></div>
-                    <div class="swiper-slide" style="background-image: url(img/pouch/slider-4.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(assets/img/pouch/slider-1.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(assets/img/pouch/slider-2.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(assets/img/pouch/slider-3.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(assets/img/pouch/slider-4.jpg);"></div>
                 </div>
                 <div class="swiper-pagination swiper-pagination-white"></div>
             </div>
@@ -48,7 +48,7 @@ include __DIR__ . '/includes/header.php';
                 <div class="col-md-12">
                     <div class="left-right-entry style-1 new-view clearfix">
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/pouch/standard.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/pouch/standard.jpg);"></div>
                         </div>
                         <div class="left">
                             <div class="row">
@@ -82,7 +82,7 @@ include __DIR__ . '/includes/header.php';
                 <div class="col-md-12">
                     <div class="left-right-entry style-1 clearfix">
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/pouch/shape.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/pouch/shape.jpg);"></div>
                         </div>
                         <div class="left">
                             <div class="row">
@@ -115,7 +115,7 @@ include __DIR__ . '/includes/header.php';
                 <div class="col-md-12">
                     <div class="left-right-entry style-1 new-view clearfix">
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/pouch/three-side.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/pouch/three-side.jpg);"></div>
                         </div>
                         <div class="left">
                             <div class="row">
@@ -170,7 +170,7 @@ include __DIR__ . '/includes/header.php';
                             </div>
                         </div>
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/pouch/kraft.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/pouch/kraft.jpg);"></div>
                         </div>
                     </div>
                 </div>
@@ -182,7 +182,7 @@ include __DIR__ . '/includes/header.php';
                 <div class="col-md-12">
                     <div class="left-right-entry style-1 new-view clearfix">
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/pouch/spouted.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/pouch/spouted.jpg);"></div>
                         </div>
                         <div class="left">
                             <div class="row">
@@ -236,7 +236,7 @@ include __DIR__ . '/includes/header.php';
                             </div>
                         </div>
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/pouch/vacuum.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/pouch/vacuum.jpg);"></div>
                         </div>
                     </div>
                 </div>
@@ -248,7 +248,7 @@ include __DIR__ . '/includes/header.php';
                 <div class="col-md-12">
                     <div class="left-right-entry style-1 new-view clearfix">
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/pouch/window.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/pouch/window.jpg);"></div>
                         </div>
                         <div class="left">
                             <div class="row">
@@ -301,7 +301,7 @@ include __DIR__ . '/includes/header.php';
                             </div>
                         </div>
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/pouch/side-guesset.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/pouch/side-guesset.jpg);"></div>
                         </div>
                     </div>
                 </div>
@@ -313,7 +313,7 @@ include __DIR__ . '/includes/header.php';
                 <div class="col-md-12">
                     <div class="left-right-entry style-1 new-view clearfix">
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/pouch/zipper.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/pouch/zipper.jpg);"></div>
                         </div>
                         <div class="left">
                             <div class="row">
@@ -366,7 +366,7 @@ include __DIR__ . '/includes/header.php';
                             </div>
                         </div>
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/pouch/paper.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/pouch/paper.jpg);"></div>
                         </div>
                     </div>
                 </div>
@@ -378,7 +378,7 @@ include __DIR__ . '/includes/header.php';
                 <div class="col-md-12">
                     <div class="left-right-entry style-1 new-view clearfix">
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/pouch/transparent.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/pouch/transparent.jpg);"></div>
                         </div>
                         <div class="left">
                             <div class="row">
@@ -431,7 +431,7 @@ include __DIR__ . '/includes/header.php';
                             </div>
                         </div>
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/pouch/center-sealed.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/pouch/center-sealed.jpg);"></div>
                         </div>
                     </div>
                 </div>
@@ -443,7 +443,7 @@ include __DIR__ . '/includes/header.php';
                 <div class="col-md-12">
                     <div class="left-right-entry style-1 new-view clearfix">
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/pouch/aluminium.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/pouch/aluminium.jpg);"></div>
                         </div>
                         <div class="left">
                             <div class="row">

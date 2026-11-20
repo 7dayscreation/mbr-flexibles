@@ -27,12 +27,12 @@ All pages are organized into clean directory structures with `index.html`, elimi
 
 The original PHP templates have been completely refactored into a clean modular architecture in `_php_backup/` for seamless long-term maintenance:
 
-- **Core Configuration**: `_php_backup/config.php` (clean URL helper `url()`, asset path helper `asset()`, company contact details).
-- **Head Component**: `_php_backup/includes/head.php` (meta tags, Google Analytics UA-91828981-1, GTM-5V5NJ87, fonts, and stylesheets).
+- **Core Configuration**: `_php_backup/config.php` (clean URL helper `url()`, asset path helper `asset('...')`, company contact details).
+- **Head Component**: `_php_backup/includes/head.php` (meta tags, Google Analytics UA-91828981-1, GTM-5V5NJ87, fonts, and stylesheets in `assets/css/`).
 - **Modular Menu Component**: `_php_backup/includes/menu-inside.php` (converted from `menu-inside.php` into a reusable module section with dynamic active class highlighting and extensionless clean links).
 - **Modular Header**: `_php_backup/includes/header.php` (branding logo, mobile drawer navigation, overlay menu trigger).
 - **Modular Footer**: `_php_backup/includes/footer.php` (clean navigation links, social icons, and copyright).
-- **Scripts Module**: `_php_backup/includes/scripts.php` (jQuery, Swiper, mousewheel, and global script runners).
+- **Scripts Module**: `_php_backup/includes/scripts.php` (jQuery, Swiper, mousewheel, and global script runners in `assets/js/`).
 - **All Modular Pages**: `_php_backup/*.php` (fully updated to use modular includes).
 - **Contact Script Backup**: `_php_backup/send_mail.php`.
 
@@ -44,11 +44,12 @@ To modify any page or modular component and regenerate all static HTML files:
 C:\xampp\php\php.exe _php_backup\generate_static.php
 ```
 
-All 14 clean pages will immediately compile into their respective directory locations with portable relative paths (`../css/`, `../img/`, `../js/`, `../fonts/`).
+All 14 clean pages will immediately compile into their respective directory locations with portable relative paths (`assets/...` on root, `../assets/...` in subdirectories).
 
 ## Hosting, Cloudflare & SEO
 
-- **Portable Relative Paths**: Subfolder pages use `../` relative asset paths, making the site work locally on XAMPP (`/mbr-flexibles/`), on Cloudflare Pages, or on any custom domain.
+- **Assets Folder**: All `js`, `css`, `img`, and `fonts` reside within `assets/` (`assets/js/`, `assets/css/`, `assets/img/`, `assets/fonts/`).
+- **Portable Relative Paths**: Subfolder pages use `../assets/...` relative asset paths, making the site work locally on XAMPP (`/mbr-flexibles/`), on Cloudflare Pages, or on any custom domain.
 - **Cloudflare Redirections**: `_redirects` provides 301 rules redirecting legacy `.php` and `.html` URLs to extensionless directory paths, plus trailing slash normalization.
-- **Security & Caching**: `_headers` enables strict security headers (`X-Content-Type-Options: nosniff`, `X-Frame-Options: SAMEORIGIN`) and 1-year immutable caching for static assets (`/img/*`, `/css/*`, `/js/*`, `/fonts/*`).
+- **Security & Caching**: `_headers` enables strict security headers (`X-Content-Type-Options: nosniff`, `X-Frame-Options: SAMEORIGIN`) and 1-year immutable caching for static assets (`/assets/*`).
 - **Sitemap & Robots**: `sitemap.xml` lists all 14 canonical URLs and `robots.txt` points search crawlers to the sitemap.

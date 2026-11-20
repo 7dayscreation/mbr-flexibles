@@ -7,7 +7,7 @@ include __DIR__ . '/includes/head.php';
 include __DIR__ . '/includes/header.php';
 ?>
 
-        <div class="fixed-background" style="background-image: url(<?php echo asset('img/about/about-bg.jpg'); ?>);">
+        <div class="fixed-background" style="background-image: url(<?php echo asset('assets/img/about/about-bg.jpg'); ?>);">
             <div class="banner-height">
                 <div class="full-size-banner-entry full-size valign-middle">
                     <div class="valign-text-wrapper text-center">

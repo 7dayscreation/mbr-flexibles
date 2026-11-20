@@ -20,7 +20,11 @@ function url($path = '') {
 // Static asset helper
 function asset($path) {
     global $root_prefix;
-    return $root_prefix . ltrim($path, '/');
+    $trimmed = ltrim($path, '/');
+    if (strpos($trimmed, 'assets/') === 0) {
+        return $root_prefix . $trimmed;
+    }
+    return $root_prefix . 'assets/' . $trimmed;
 }
 
 // Site Details

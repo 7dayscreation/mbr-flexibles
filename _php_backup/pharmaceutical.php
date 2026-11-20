@@ -23,35 +23,35 @@ include __DIR__ . '/includes/header.php';
                     <div class="row">
                         <div class="col-md-10 col-md-offset-1 text-center">
                             <a class="mouseover image-wide-thumbnail" href="food-beverages.php">
-                                <img src="img/markets/food-banner.png" alt="">
+                                <img src="assets/img/markets/food-banner.png" alt="">
                                 <span class="mouseover-helper-icon"></span>
                             </a>
                             <div class="empty-space col-xs-b30 col-sm-b0 col-md-b30 col-lg-b5"></div>
                         </div>
                         <div class="col-md-10 col-md-offset-1 text-center">
                             <a class="mouseover image-wide-thumbnail" href="pharmaceutical.php">
-                                <img src="img/markets/pharma-banner.png" alt="">
+                                <img src="assets/img/markets/pharma-banner.png" alt="">
                                 <span class="mouseover-helper-icon"></span>
                             </a>
                             <div class="empty-space col-xs-b30 col-sm-b0 col-md-b30 col-lg-b5"></div>
                         </div>
                         <div class="col-md-10 col-md-offset-1 text-center">
                             <a class="mouseover image-wide-thumbnail" href="home-personal.php">
-                                <img src="img/markets/home-care-banner.png" alt="">
+                                <img src="assets/img/markets/home-care-banner.png" alt="">
                                 <span class="mouseover-helper-icon"></span>
                             </a>
                             <div class="empty-space col-xs-b30 col-sm-b0 col-md-b30 col-lg-b5"></div>
                         </div>
                         <div class="col-md-10 col-md-offset-1 text-center">
                             <a class="mouseover image-wide-thumbnail" href="agriculture.php">
-                                <img src="img/markets/agriculture-banner.png" alt="">
+                                <img src="assets/img/markets/agriculture-banner.png" alt="">
                                 <span class="mouseover-helper-icon"></span>
                             </a>
                             <div class="empty-space col-xs-b30 col-sm-b0 col-md-b30 col-lg-b5"></div>
                         </div>
                         <div class="col-md-10 col-md-offset-1 text-center">
                             <a class="mouseover image-wide-thumbnail" href="pet-foods.php">
-                                <img src="img/markets/pet-food-banner.png" alt="">
+                                <img src="assets/img/markets/pet-food-banner.png" alt="">
                                 <span class="mouseover-helper-icon"></span>
                             </a>
                             <div class="empty-space col-xs-b30 col-sm-b0 col-md-b30 col-lg-b5"></div>
@@ -64,10 +64,10 @@ include __DIR__ . '/includes/header.php';
                 		<div class="swiper-button-prev swiper-button hidden-xs style-2"></div>
                 		<div class="swiper-button-next swiper-button hidden-xs style-2"></div>
                 		<div class="swiper-wrapper">
-                    			<div class="swiper-slide" style="background-image: url(img/markets/pharmaceutical/pharmaceutical-1.jpg);"></div>
-                    			<div class="swiper-slide" style="background-image: url(img/markets/pharmaceutical/pharmaceutical-2.jpg);"></div>
-                    			<div class="swiper-slide" style="background-image: url(img/markets/pharmaceutical/pharmaceutical-3.jpg);"></div>
-					<div class="swiper-slide" style="background-image: url(img/markets/pharmaceutical/pharmaceutical-4.jpg);"></div>
+                    			<div class="swiper-slide" style="background-image: url(assets/img/markets/pharmaceutical/pharmaceutical-1.jpg);"></div>
+                    			<div class="swiper-slide" style="background-image: url(assets/img/markets/pharmaceutical/pharmaceutical-2.jpg);"></div>
+                    			<div class="swiper-slide" style="background-image: url(assets/img/markets/pharmaceutical/pharmaceutical-3.jpg);"></div>
+					<div class="swiper-slide" style="background-image: url(assets/img/markets/pharmaceutical/pharmaceutical-4.jpg);"></div>
                 		</div>
                 		<div class="swiper-pagination swiper-pagination-white"></div>
             		</div>

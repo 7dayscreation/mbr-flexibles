@@ -18,7 +18,7 @@ include __DIR__ . '/includes/header.php';
                         <div class="slice-slider-wrapper">
                             <div class="slice-slider-slide">
                                 <div class="slice-slider-slide-left">
-                                    <div class="slice-align-animation parallax" style="background-image: url(img/home/home-bg.jpg);">
+                                    <div class="slice-align-animation parallax" style="background-image: url(assets/img/home/home-bg.jpg);">
                                         
                                     </div>
                                 </div>
@@ -45,7 +45,7 @@ include __DIR__ . '/includes/header.php';
                             </div>
                             <div class="slice-slider-slide">
                                 <div class="slice-slider-slide-left">
-                                    <div class="slice-align-animation parallax" style="background-image: url(img/home/infra-bg.jpg);">
+                                    <div class="slice-align-animation parallax" style="background-image: url(assets/img/home/infra-bg.jpg);">
                                         
                                     </div>
                                 </div>
@@ -72,7 +72,7 @@ include __DIR__ . '/includes/header.php';
                             </div>
                             <div class="slice-slider-slide">
                                 <div class="slice-slider-slide-left">
-                                    <div class="slice-align-animation parallax" style="background-image: url(img/home/market-bg.jpg);">
+                                    <div class="slice-align-animation parallax" style="background-image: url(assets/img/home/market-bg.jpg);">
                                         
                                     </div>
                                 </div>
@@ -101,7 +101,7 @@ MBR FLEXIBLES LTD uses the packaging materials which protect the flavour and qua
                             
                             <div class="slice-slider-slide">
                                 <div class="slice-slider-slide-left">
-                                    <div class="slice-align-animation parallax" style="background-image: url(img/home/pouch-bg.jpg);">
+                                    <div class="slice-align-animation parallax" style="background-image: url(assets/img/home/pouch-bg.jpg);">
                                         
                                     </div>
                                 </div>
@@ -149,7 +149,7 @@ MBR FLEXIBLES LTD uses the packaging materials which protect the flavour and qua
                             
                             <div class="slice-slider-slide">
                                 <div class="slice-slider-slide-left">
-                                    <div class="slice-align-animation parallax" style="background-image: url(img/home/quality-bg.jpg);">
+                                    <div class="slice-align-animation parallax" style="background-image: url(assets/img/home/quality-bg.jpg);">
                                         
                                     </div>
                                 </div>
@@ -179,7 +179,7 @@ From an environmental perspective, MBR flexible provides the best product to pac
                             
                             <div class="slice-slider-slide">
                                 <div class="slice-slider-slide-left">
-                                    <div class="slice-align-animation parallax" style="background-image: url(img/home/contact-bg.jpg);">
+                                    <div class="slice-align-animation parallax" style="background-image: url(assets/img/home/contact-bg.jpg);">
                                         
                                     </div>
                                 </div>

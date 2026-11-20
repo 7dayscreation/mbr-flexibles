@@ -198,8 +198,8 @@ foreach ($pages as $p) {
 
         // Replace asset URLs that do not already have ../
         $assetPatterns = [
-            '/(href|src|data-src)=["\'](?!\.\.\/|https?:\/\/|\/\/|#|data:|mailto:|tel:)(css|js|img|fonts)\//i' => '$1="../$2/',
-            '/url\((["\']?)(?!\.\.\/|https?:\/\/|\/\/|data:)(img|css|fonts)\//i' => 'url($1../$2/',
+            '/(href|src|data-src)=["\'](?!\.\.\/|https?:\/\/|\/\/|#|data:|mailto:|tel:)(assets\/|)(css|js|img|fonts)\//i' => '$1="../assets/$3/',
+            '/url\((["\']?)(?!\.\.\/|https?:\/\/|\/\/|data:)(assets\/|)(img|css|fonts)\//i' => 'url($1../assets/$3/',
         ];
 
         foreach ($linkMap as $from => $to) {
@@ -242,8 +242,17 @@ foreach ($pages as $p) {
             'href="policy.html"' => 'href="policy/"',
         ];
 
+        $assetPatterns = [
+            '/(href|src|data-src)=["\'](?!\.\.\/|assets\/|https?:\/\/|\/\/|#|data:|mailto:|tel:)(css|js|img|fonts)\//i' => '$1="assets/$2/',
+            '/url\((["\']?)(?!\.\.\/|assets\/|https?:\/\/|\/\/|data:)(img|css|fonts)\//i' => 'url($1assets/$2/',
+        ];
+
         foreach ($linkMap as $from => $to) {
             $rendered = str_replace($from, $to, $rendered);
+        }
+
+        foreach ($assetPatterns as $pattern => $replacement) {
+            $rendered = preg_replace($pattern, $replacement, $rendered);
         }
     }
 

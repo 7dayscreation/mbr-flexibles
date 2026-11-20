@@ -22,7 +22,7 @@ include __DIR__ . '/includes/header.php';
                         <div class="swiper-wrapper">
 
                             <div class="swiper-slide">
-                                <div class="entry" style="background-image: url(img/markets/food-beverages.jpg);">
+                                <div class="entry" style="background-image: url(assets/img/markets/food-beverages.jpg);">
                                     <span class="line hidden-xs" data-swiper-parallax="-300"></span>
                                     <div class="full-size" data-swiper-parallax="-600">
                                         <div class="description left col-xs-text-center col-sm-text-left">
@@ -39,7 +39,7 @@ include __DIR__ . '/includes/header.php';
                             </div>
 
                             <div class="swiper-slide">
-                                <div class="entry" style="background-image: url(img/markets/pharmaceutical.jpg);">
+                                <div class="entry" style="background-image: url(assets/img/markets/pharmaceutical.jpg);">
                                     <span class="line hidden-xs" data-swiper-parallax="-300"></span>
                                     <div class="full-size" data-swiper-parallax="-600">
                                         <div class="description2 right col-xs-text-center col-sm-text-left">
@@ -56,7 +56,7 @@ include __DIR__ . '/includes/header.php';
                             </div>
 
                             <div class="swiper-slide">
-                                <div class="entry" style="background-image: url(img/markets/home-personal.jpg);">
+                                <div class="entry" style="background-image: url(assets/img/markets/home-personal.jpg);">
                                     <span class="line hidden-xs" data-swiper-parallax="-300"></span>
                                     <div class="full-size" data-swiper-parallax="-600">
                                         <div class="description3 left col-xs-text-center col-sm-text-left">
@@ -73,7 +73,7 @@ include __DIR__ . '/includes/header.php';
                             </div>
                             
                             <div class="swiper-slide">
-                                <div class="entry" style="background-image: url(img/markets/agriculture.jpg);">
+                                <div class="entry" style="background-image: url(assets/img/markets/agriculture.jpg);">
                                     <span class="line hidden-xs" data-swiper-parallax="-300"></span>
                                     <div class="full-size" data-swiper-parallax="-600">
                                         <div class="description4 left col-xs-text-center col-sm-text-left">
@@ -90,7 +90,7 @@ include __DIR__ . '/includes/header.php';
                             </div>
                             
                             <div class="swiper-slide">
-                                <div class="entry" style="background-image: url(img/markets/pet-food.jpg);">
+                                <div class="entry" style="background-image: url(assets/img/markets/pet-food.jpg);">
                                     <span class="line hidden-xs" data-swiper-parallax="-300"></span>
                                     <div class="full-size" data-swiper-parallax="-600">
                                         <div class="description5 left col-xs-text-center col-sm-text-left">

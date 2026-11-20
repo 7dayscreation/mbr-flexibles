@@ -9,7 +9,7 @@ include __DIR__ . '/includes/head.php';
 include __DIR__ . '/includes/header.php';
 ?>
 
-<div class="fixed-background" style="background-image: url(img/quality/environment-home.jpg);">
+<div class="fixed-background" style="background-image: url(assets/img/quality/environment-home.jpg);">
             <div class="banner-height">
                 <div class="full-size-banner-entry full-size valign-middle">
                     <div class="valign-text-wrapper text-center">
@@ -35,7 +35,7 @@ include __DIR__ . '/includes/header.php';
                 <div class="col-md-12">
                     <div class="left-right-entry style-1 new-view clearfix">
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/quality/environment.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/quality/environment.jpg);"></div>
                         </div>
                         <div class="left">
                             <div class="row">
@@ -60,7 +60,7 @@ include __DIR__ . '/includes/header.php';
                 <div class="col-md-12">
                     <div class="left-right-entry style-1 clearfix">
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/quality/environment1.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/quality/environment1.jpg);"></div>
                         </div>
                         <div class="left">
                             <div class="row">
@@ -85,7 +85,7 @@ include __DIR__ . '/includes/header.php';
                 <div class="col-md-12">
                     <div class="left-right-entry style-1 new-view clearfix">
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/quality/environment2.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/quality/environment2.jpg);"></div>
                         </div>
                         <div class="left">
                             <div class="row">

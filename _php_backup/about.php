@@ -9,7 +9,7 @@ include __DIR__ . '/includes/head.php';
 include __DIR__ . '/includes/header.php';
 ?>
 
-<div class="fixed-background" style="background-image: url(img/about/about-bg.jpg);">
+<div class="fixed-background" style="background-image: url(assets/img/about/about-bg.jpg);">
             <div class="page-height">
                 <div class="full-size-banner-entry full-size valign-middle">
                     <div class="valign-text-wrapper">
@@ -57,7 +57,7 @@ include __DIR__ . '/includes/header.php';
             <div class="empty-space col-xs-b55 col-sm-b110"></div>
         </div>
 
-        <div class="fixed-background" style="background-image: url(img/about/mission-bg.jpg);">
+        <div class="fixed-background" style="background-image: url(assets/img/about/mission-bg.jpg);">
             <div class="background-block background-block-shadow">
                 <div class="empty-space col-xs-b55 col-sm-b110"></div>
                 <div class="empty-space col-sm-b100"></div>
@@ -87,7 +87,7 @@ include __DIR__ . '/includes/header.php';
                     <div class="h5"><b>-</b></div>
                     <div class="empty-space col-xs-b15"></div>
                     <div class="simple-article grey">
-                        <img src="img/about/vision-bg.jpg" alt="" />
+                        <img src="assets/img/about/vision-bg.jpg" alt="" />
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -103,7 +103,7 @@ include __DIR__ . '/includes/header.php';
             <div class="empty-space col-xs-b55 col-sm-b110"></div>
         </div>
 
-        <div class="fixed-background" style="background-image: url(img/about/expertise-bg.jpg);">
+        <div class="fixed-background" style="background-image: url(assets/img/about/expertise-bg.jpg);">
             <div class="background-block background-block-shadow">
                 <div class="empty-space col-xs-b55 col-sm-b110"></div>
                 <div class="empty-space col-sm-b100"></div>
@@ -133,7 +133,7 @@ include __DIR__ . '/includes/header.php';
                     <div class="h5"><b>-</b></div>
                     <div class="empty-space col-xs-b15"></div>
                     <div class="simple-article grey">
-                        <img src="img/about/advantage-bg.jpg" alt="" />
+                        <img src="assets/img/about/advantage-bg.jpg" alt="" />
                     </div>
                 </div>
                 <div class="col-sm-4">

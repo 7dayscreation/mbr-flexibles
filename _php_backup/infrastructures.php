@@ -9,7 +9,7 @@ include __DIR__ . '/includes/head.php';
 include __DIR__ . '/includes/header.php';
 ?>
 
-<div class="fixed-background" style="background-image: url(img/infrastructures/infra-home.jpg);">
+<div class="fixed-background" style="background-image: url(assets/img/infrastructures/infra-home.jpg);">
             <div class="banner-height">
                 <div class="full-size-banner-entry full-size valign-middle">
                     <div class="valign-text-wrapper text-center">
@@ -44,10 +44,10 @@ include __DIR__ . '/includes/header.php';
                 <div class="swiper-button-prev swiper-button hidden-xs style-2"></div>
                 <div class="swiper-button-next swiper-button hidden-xs style-2"></div>
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide" style="background-image: url(img/infrastructures/infra-slider-1.jpg);"></div>
-                    <div class="swiper-slide" style="background-image: url(img/infrastructures/infra-slider-2.jpg);"></div>
-                    <div class="swiper-slide" style="background-image: url(img/infrastructures/infra-slider-3.jpg);"></div>
-                    <div class="swiper-slide" style="background-image: url(img/infrastructures/infra-slider-4.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(assets/img/infrastructures/infra-slider-1.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(assets/img/infrastructures/infra-slider-2.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(assets/img/infrastructures/infra-slider-3.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(assets/img/infrastructures/infra-slider-4.jpg);"></div>
                 </div>
                 <div class="swiper-pagination swiper-pagination-white"></div>
             </div>
@@ -60,7 +60,7 @@ include __DIR__ . '/includes/header.php';
                 <div class="col-md-12">
                     <div class="left-right-entry style-1 new-view clearfix">
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/infrastructures/printing.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/infrastructures/printing.jpg);"></div>
                         </div>
                         <div class="left">
                             <div class="row">
@@ -85,7 +85,7 @@ include __DIR__ . '/includes/header.php';
                 <div class="col-md-12">
                     <div class="left-right-entry style-1 clearfix">
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/infrastructures/defect.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/infrastructures/defect.jpg);"></div>
                         </div>
                         <div class="left">
                             <div class="row">
@@ -110,7 +110,7 @@ include __DIR__ . '/includes/header.php';
                 <div class="col-md-12">
                     <div class="left-right-entry style-1 new-view clearfix">
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/infrastructures/inspection.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/infrastructures/inspection.jpg);"></div>
                         </div>
                         <div class="left">
                             <div class="row">
@@ -150,7 +150,7 @@ We have various lamination machines with both solvent free and solvent based lam
                             </div>
                         </div>
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/infrastructures/lamination.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/infrastructures/lamination.jpg);"></div>
                         </div>
                     </div>
                 </div>
@@ -162,7 +162,7 @@ We have various lamination machines with both solvent free and solvent based lam
                 <div class="col-md-12">
                     <div class="left-right-entry style-1 new-view clearfix">
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/infrastructures/extrusion.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/infrastructures/extrusion.jpg);"></div>
                         </div>
                         <div class="left">
                             <div class="row">
@@ -217,7 +217,7 @@ There are endless options when it comes to pre-made pouches. Our team can work w
                             </div>
                         </div>
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/infrastructures/bag-making.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/infrastructures/bag-making.jpg);"></div>
                         </div>
                     </div>
                 </div>
@@ -229,7 +229,7 @@ There are endless options when it comes to pre-made pouches. Our team can work w
                 <div class="col-md-12">
                     <div class="left-right-entry style-1 new-view clearfix">
                         <div class="right">
-                            <div class="entry full-size" style="background-image: url(img/infrastructures/testing-machines.jpg);"></div>
+                            <div class="entry full-size" style="background-image: url(assets/img/infrastructures/testing-machines.jpg);"></div>
                         </div>
                         <div class="left">
                             <div class="row">
